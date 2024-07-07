@@ -8,6 +8,8 @@ Scikit-learn:
 Function: Scikit-learn is used for machine learning tasks such as text vectorization and classification.
 Random:
 Function: The Random library is used for generating random responses from the chatbot.
+
+
 How Libraries Function in the Code:
 NLTK: Utilized for text preprocessing tasks like tokenization to break down input text into individual words.
 Scikit-learn: Used for creating a TfidfVectorizer to convert text data into numerical vectors and a LogisticRegression classifier to predict the intent of user input.
