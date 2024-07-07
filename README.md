@@ -5,3 +5,16 @@ The libraries that we us in the code help us to read and write files and interac
 
 The chatbot is designed to respond to various types of queries such as geeeting, goodbte, thanks, about help, age etc. This format keeps the information clear and concise, providing a quick overview of what the chatbot can do and how it responds to different types of queries. We can make the changes according to our needs.
 
+Training the Chatbot Model:
+To enable the chatbot to understand and respond to user queries effectively, we use a machine learning approach to train a model. Here's a breakdown of how it works:
+Create the Vectorizer and Classifier:
+First, we initialize two key components:
+Vectorizer: TfidfVectorizer() is used to convert text data into numerical vectors. It transforms text patterns into a format that machine learning algorithms can understand, using Term Frequency-Inverse Document Frequency (TF-IDF).
+Classifier: LogisticRegression() is a supervised learning algorithm used for classification tasks. It's well-suited for text classification, where it learns to predict the tag (intent) based on the vectorized input.
+
+Preprocess the Data:
+Next, we prepare the training data by extracting tags (intents) and patterns (user queries) from predefined intents. Each intent contains patterns that users might input, along with corresponding tags indicating the intent's category.
+
+Train the Model:
+With the data prepared, we train the classifier (clf) using the vectorized patterns (x) and their corresponding tags (y). This step teaches the model to associate patterns with specific intents, enabling it to classify new user queries correctly.
+This process equips the chatbot with the ability to understand user inputs and provide appropriate responses based on the patterns it has learned during training.
