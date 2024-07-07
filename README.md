@@ -1,17 +1,6 @@
 Project Description:
 This project focuses on creating an end-to-end chatbot using Python. The chatbot is designed to engage in conversations with users, providing responses based on predefined intents. The chatbot utilizes Natural Language Processing techniques for text processing and machine learning for intent classification.
 
-Libraries Used:
-NLTK (Natural Language Toolkit):
-Function: NLTK is used for natural language processing tasks such as tokenization and stemming.
-Scikit-learn:
-Function: Scikit-learn is used for machine learning tasks such as text vectorization and classification.
-Random:
-Function: The Random library is used for generating random responses from the chatbot.
+The libraries that we us in the code help us to read and write files and interact with our operating system. We also deal with data that comes in from unverified HTTPS by overlapping the security layer. We import machine learning model to predict the our outcome in binary by classifyig which class the input belongs and depending on that the response of the chatbot varies. We also classify the words into a matrix on the basis of how frequetly they occur in relative to the document it belongs to by using tfidvectorizer. We also import NLTK that helps us to break piece of texts into sentenses. 
 
 
-How Libraries Function in the Code:
-NLTK: Utilized for text preprocessing tasks like tokenization to break down input text into individual words.
-Scikit-learn: Used for creating a TfidfVectorizer to convert text data into numerical vectors and a LogisticRegression classifier to predict the intent of user input.
-Random: Enables the selection of random responses from the predefined intents to provide variety in chatbot interactions.
-Feel free to explore the code and with the chatbot. Enjoy chatting with our end-to-end chatbot!
